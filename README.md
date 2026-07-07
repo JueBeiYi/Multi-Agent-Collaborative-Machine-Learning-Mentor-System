@@ -278,13 +278,6 @@ python -m unittest tests.test_stability
 - 后端不会长期保存用户的 API Key、学习记录或上传数据。
 - 如果要部署到公网，请加入用户认证、HTTPS、服务端密钥代理和请求限流。
 
-## 路线图
 
-- 支持完整回归实验与聚类评估指标。
-- 增加更多课程数据集和可配置实验模板。
-- 将后端迁移到 FastAPI，并提供 OpenAPI 文档。
-- 增加可选服务端数据库，实现跨设备同步。
-- 引入更严格的 Agent 输出 schema 校验与降级渲染。
-- 增加 GitHub Actions 自动测试流程。
 
 
