@@ -12,9 +12,6 @@
   <a href="#测试"><img alt="Tests" src="https://img.shields.io/badge/Tests-unittest-2563EB"></a>
 </p>
 
-<p align="center">
-  <img src="web/首页01.png" alt="机器学习导师工作台首页" width="100%">
-</p>
 
 ## 项目简介
 
@@ -46,15 +43,6 @@
 | 学习档案 | 保存、搜索、筛选、查看、导入和导出本地学习记录 |
 | 开放问答 | 在任意页面携带当前学习上下文向大模型提问 |
 
-## 页面预览
-
-| 学习规划 | 算法可视化 |
-| --- | --- |
-| <img src="web/学习规划01.png" alt="学习规划页面" width="100%"> | <img src="web/算法可视化01.png" alt="算法可视化页面" width="100%"> |
-
-| 实验中心 | 学习档案 |
-| --- | --- |
-| <img src="web/实验中心01.png" alt="实验中心页面" width="100%"> | <img src="web/学习档案01.png" alt="学习档案页面" width="100%"> |
 
 ## 项目架构
 
@@ -299,7 +287,4 @@ python -m unittest tests.test_stability
 - 引入更严格的 Agent 输出 schema 校验与降级渲染。
 - 增加 GitHub Actions 自动测试流程。
 
-## 许可证
-
-当前仓库暂未声明开源许可证。上传 GitHub 前，建议根据使用场景补充 `LICENSE` 文件，例如 MIT、Apache-2.0 或仅课程展示用途的自定义说明。
 
